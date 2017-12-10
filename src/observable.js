@@ -6,7 +6,6 @@ const currentInput = new Subject();
 const deleteTodo = new Subject();
 const updateTodo = new Subject();
 
-
 export {
     counter,
     createTodo,

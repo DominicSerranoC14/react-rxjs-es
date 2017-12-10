@@ -1,7 +1,21 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50vh;
   margin-top: 50px;
   text-align: center;
 }
+
+.Todo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
+    margin: 20px auto;
+}
+
+.push-right { margin-right: 10px; }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
