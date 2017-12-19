@@ -1,0 +1,15 @@
+.push-right {
+    margin-right: 5px;
+}
+
+.push-up {
+    margin-top: 20px;
+}
+
+.completed {
+    text-decoration: line-through; 
+}
+
+.delete-button {
+    color: red;
+}
